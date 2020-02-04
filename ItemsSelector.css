@@ -1,0 +1,25 @@
+
+.itemsSelector {
+   display: flex;
+   align-items: center;
+}
+
+.itemSizes {
+   width: 200px;
+}
+
+
+.itemTypes {
+   width: 300px;
+}
+
+
+.graphTypes {
+   width: 300px;
+}
+
+label {
+   margin: 4px;
+   padding: 4px;
+}
+

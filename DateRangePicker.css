@@ -1,0 +1,30 @@
+
+.dateRangePicker {
+   margin: 4px;
+   padding: 4px;
+   display: grid;
+   grid-template-areas:
+      "labelStart  datePickerStart"
+      "labelEnd    datePickerEnd"
+}
+
+
+.labelStart {
+   margin: auto;
+   grid-area: labelStart;
+}
+
+.datePickerStart {
+   grid-area: datePickerStart;
+}
+
+.labelEnd {
+   margin: auto;
+   grid-area: labelEnd;
+}
+
+.datePickerEnd {
+   grid-area: datePickerEnd;
+}
+
+

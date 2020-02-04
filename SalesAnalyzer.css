@@ -1,0 +1,88 @@
+
+.entirePage {
+/*
+   margin: 0;
+   padding: 0;
+*/
+
+   height: 100vh;
+   text-align: left;
+   display: grid;
+/*   grid-template-columns: 1fr 100px; */
+   grid-template-columns: 1fr;
+/*   grid-template-rows: 0.03fr 0.2fr 1fr 0.2fr 0.2fr; */
+   grid-template-rows: 0.1fr 0.2fr 1fr 0.1fr;
+   grid-template-areas:
+      "areaHeading"
+      "areaSettings"
+      "areaGraph"
+      "areaInput"
+
+/*
+      "areaMenu      areaMenu"
+      "areaHeading   areaHeading"
+      "areaSettings  areaSettings"
+      "areaGraph     areaSide"
+      "areaInput     areaInput"
+      "areaDebug     areaDebug"
+*/
+}
+
+.areaMenu {
+   min-height: 30px;
+   background: lightcoral;
+   grid-area: areaMenu;
+}
+
+
+.areaHeading {
+/*   min-height: 30px; */
+   background: lightyellow;
+   grid-area: areaHeading;
+   align-items: center;
+   padding: 10px;
+}
+
+.areaSettings {
+/*   min-height: 80px; */
+   background: lightblue;
+   grid-area: areaSettings;
+}
+
+.areaGraph {
+   background: lightgreen;
+   grid-area: areaGraph;
+}
+
+.areaInput {
+   min-height: 80px;
+   background: darkgreen;
+   grid-area: areaInput;
+}
+
+.areaSide {
+   background: darkmagenta;
+   grid-area: areaSide;
+}
+
+
+.areaDebug {
+   min-height: 100px;
+   background: darkred;
+   grid-area: areaDebug;
+}
+
+
+
+#areaGraph {
+   background: lightgreen;
+   grid-area: areaGraph;
+   height: 500px;
+   width: 1200px;
+   background-color: #f7fcfa;
+}
+
+
+/*
+body { overflow: hidden; }
+*/
